@@ -2,7 +2,7 @@
 
 ## fork  
 
-⏰from ultralystic
+⏰from [https://github.com/ultralytics/ultralytics](https://github.com/ultralytics/ultralytics)
 
 examples/YOLOv8-ONNXRuntime-Rust
 
