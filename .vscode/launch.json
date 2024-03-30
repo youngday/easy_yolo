@@ -1,0 +1,28 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "yolov8-rs",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=yolov8-rs",
+                    "--package=yolov8-rs"
+                ],
+                "filter": {
+                    "name": "yolov8-rs",
+                    "kind": "bin"
+                }
+            },
+            "args": ["--model","./models/yolov8m.onnx","--source","./assets/bus.jpg"],
+            "cwd": "${workspaceFolder}"
+        }
+
+    ]
+}
