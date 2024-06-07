@@ -220,8 +220,17 @@ cargo run --release -- --trt --model ../assets/weights/yolov8m-pose.onnx --sourc
 
 using `TensorRT` EP and FP16 model `--fp16`
 
-```
+```sh
 cargo run --release --  --trt --fp16 --model ../assets/weights/yolov8m-seg.onnx --source ../assets/images/0172.jpg --plot
 ```
 
 ![seg](https://github.com/jamjamjon/ultralytics/assets/51357717/cf046f4f-9533-478a-adc7-4de22443a641)
+
+
+```sh
+cargo run --release --  --trt --fp16 --model models/yolov8m.onnx --source assets/bus.jpg --plot    
+```
+
+
+
+
