@@ -15,4 +15,4 @@
 *.uml linguist-language=rust
 
 *.cmd linguist-language=rust
-
+*.rs linguist-language=rust
