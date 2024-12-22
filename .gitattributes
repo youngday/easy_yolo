@@ -1,18 +1,18 @@
-*.md linguist-language=Rust 
+*.md linguist-language=rust
 
-*.yml linguist-language=Rust 
+*.yml linguist-language=rust
 
-*.html linguist-language=Rust 
+*.html linguist-language=rust
 
-*.js linguist-language=Rust 
+*.js linguist-language=rust
 
-*.xml linguist-language=Rust 
+*.xml linguist-language=rust
 
-*.css linguist-language=Rust 
+*.css linguist-language=rust
 
-*.sql linguist-language=Rust 
+*.sql linguist-language=rust
 
-*.uml linguist-language=Rust 
+*.uml linguist-language=rust
 
-*.cmd linguist-language=Rust 
+*.cmd linguist-language=rust
 
