@@ -77,14 +77,19 @@ yolo export model=yolov8m-seg.pt format=onnx  simplify
 For examples,model path is relative to `../models.`:
 - Detect
 ```sh
-cargo run -r --example yolo -- --task detect --ver v8 --scale n --model../models/v8-m.onnx  --source assets/bus.jpg
-cargo run -r --example yolo -- --task detect --ver v11 --scale n --model../models/v11-m.onnx  --source assets/bus.jpg
+cargo run -r --example yolo -- --task detect --ver 8 --scale n --model../models/v8-m.onnx  --source assets/bus.jpg
+cargo run -r --example yolo -- --task detect --ver 11 --scale n --model../models/v11-m.onnx  --source assets/bus.jpg
 ```
 - Pose
 ```sh
-cargo run -r --example yolo -- --task pose --ver v8 --scale n --model ../models/v8-m-pose.onnx  --source assets/bus.jpg
-cargo run -r --example yolo -- --task pose --ver v11 --scale n --model ../models/v11-m-pose.onnx  --source assets/bus.jpg
+cargo run -r --example yolo -- --task pose --ver 8 --scale n --model ../models/v8-m-pose.onnx  --source assets/bus.jpg
+cargo run -r --example yolo -- --task pose --ver 11 --scale n --model ../models/v11-m-pose.onnx  --source assets/bus.jpg 
 ```
+
+rtmo
+
+cargo run -r --example rtmo -- --model ../models/rtmo/m.onnx --source assets/bus.jpg 
+
 ### other
 
 check `README.md` in examples.
